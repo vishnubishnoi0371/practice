@@ -1,5 +1,4 @@
 import React from "react";
-
 const Commonbtn = (props) => {
   return (
     <div>
@@ -9,5 +8,4 @@ const Commonbtn = (props) => {
     </div>
   );
 };
-
 export default Commonbtn;

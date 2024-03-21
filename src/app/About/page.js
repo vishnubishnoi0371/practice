@@ -27,8 +27,11 @@ const Page = () => {
   return (
     <div>
       <div className="flex flex-col  min-h-screen justify-center items-center">
-        <Link href="/" className="text-[30px] uppercase font-bold">
-          Go to home
+        <Link
+          href="/ "
+          className="text-[30px]  rounded-[30px] bg-transparent border-[4px] border-solid border-black p-5 mb-5 uppercase font-bold"
+        >
+          Go to home -
         </Link>
         <div className="flex gap-4 ">
           {data.map((obj, i) => (

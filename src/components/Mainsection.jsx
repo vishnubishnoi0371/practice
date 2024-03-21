@@ -30,8 +30,11 @@ const Mainsection = () => {
   return (
     <div>
       <div className="flex flex-col items-center justify-center pb-5">
-        <Link href="/About" className="text-[30px] font-bold uppercase">
-          show about
+        <Link
+          href="/About"
+          className="text-[30px] rounded-[30px] bg-transparent border-[4px] border-solid border-black p-5 font-bold uppercase"
+        >
+          show about -
         </Link>
 
         <div className="flex">
