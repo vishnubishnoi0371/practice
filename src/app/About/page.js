@@ -35,7 +35,7 @@ const Page = () => {
         </Link>
         <div className="flex gap-4 ">
           {data.map((obj, i) => (
-            <div className="bg-black rounded-lg p-4">
+            <div key={i} className="bg-black rounded-lg p-4">
               <Image src={obj.img} width={400} height={400} alt="hello" />
               <div className="fs-xl flex flex-col items-center ">
                 <p className="text-white text-xxl mt-3 fw-bold">{obj.para1}</p>

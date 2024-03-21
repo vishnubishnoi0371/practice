@@ -40,7 +40,7 @@ const Mainsection = () => {
         <div className="flex">
           {data.map((obj, i) => (
             <div
-              // key={i}
+              key={i}
               className=" p-5 rounded-lg bg-black border-[2px] max-w-[300px] mt-5"
             >
               <Image src={obj.img} width={400} height={400} alt="hello" />
