@@ -52,7 +52,6 @@ const Mainsection = () => {
             </div>
           ))}
         </div>
-        <Commonbtn text="view" />
       </div>
     </div>
   );

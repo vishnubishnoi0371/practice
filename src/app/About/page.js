@@ -44,7 +44,6 @@ const Page = () => {
             </div>
           ))}
         </div>
-        <Commonbtn text="show" />
       </div>
     </div>
   );
